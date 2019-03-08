@@ -19,7 +19,8 @@ for i in range(101):
     sayilar[i]=random.randint(1, 200)
 ----
  
-Daha sonra bolen_sayisi değişkeni 0 değerine 
+Daha sonra bolen_sayisi değişkeni 0 değerine eşitlendi. Dizideki herbir değerin, geriye kalan diğerleriyle kalansız bölüp bölünmediği mod işlemiyle gerçekleştirildi. Bir sayı 
+
 [source,cpp]
 ----
 bolen_sayisi=0
