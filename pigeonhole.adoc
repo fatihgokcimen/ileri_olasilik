@@ -4,3 +4,19 @@
 
 1 ile 200 arasında 101 tane sayı seçilmiş olsun. Bu sayılar arasında muhakkak öyle iki sayı vardır ki biri diğerini tam böler. Bunun ıspatının güvercin yucası prensibi ile yapılması
 
+
+== Çözüm:
+
+Öncelikle problemde istenildiği gibi 1 ile 200 arasında 101 tane rasgele sayı üretilip bir diziye aktarıldı. Bu işlemi yapan kaynak python kodları aşağıdaki gibidir.
+
+[source,cpp]
+----
+import numpy as np
+import random
+sayilar = list(range(101))
+#sayilar=[2,3,11,5,14]
+for i in range(101):
+    sayilar[i]=random.randint(1, 200)
+----
+ 
+
