@@ -1,4 +1,5 @@
 = Güvercin Yuvası Problemi
+
 == Problem:
 
 1 ile 200 arasında 101 tane sayı seçilmiş olsun. Bu sayılar arasında muhakkak öyle iki sayı vardır ki biri diğerini tam böler. Bunun ıspatının güvercin yucası prensibi ile yapılması
