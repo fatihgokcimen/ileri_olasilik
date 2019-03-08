@@ -25,3 +25,16 @@ def pigeonhole_sort(a):
             a[i] = count + my_min 
             i += 1
 ----
+
+
+.asal.cpp
+[source,pyt]
+----
+a = [8, 3, 2, 7, 4, 6, 8] 
+print("Sorted order is : ", end =" ") 
+  
+pigeonhole_sort(a) 
+          
+for i in range(0, len(a)): 
+    print(a[i], end =" ")
+----
