@@ -19,4 +19,13 @@ for i in range(101):
     sayilar[i]=random.randint(1, 200)
 ----
  
-
+Daha sonra bolen_sayisi değişkeni 0 değerine 
+[source,cpp]
+----
+bolen_sayisi=0
+for i in range(101):
+    for j in range(101):
+        if i!=j:
+            if sayilar[i] % sayilar[j]==0:
+                bolen_sayisi+=1
+----
