@@ -9,7 +9,7 @@
 
 Öncelikle problemde istenildiği gibi 1 ile 200 arasında 101 tane rasgele sayı üretilip bir diziye aktarıldı. Bu işlemi yapan kaynak python kodları aşağıdaki gibidir.
 
-[source,cpp]
+[source,pyt]
 ----
 import numpy as np
 import random
@@ -19,9 +19,9 @@ for i in range(101):
     sayilar[i]=random.randint(1, 200)
 ----
  
-Daha sonra bolen_sayisi değişkeni 0 değerine eşitlendi. Dizideki herbir değerin, geriye kalan diğerleriyle kalansız bölüp bölünmediği mod işlemiyle gerçekleştirildi. Bir sayı 
+Daha sonra bolen_sayisi değişkeni 0 değerine eşitlendi. Dizideki herbir değerin, geriye kalan diğerleriyle kalansız bölüp bölünmediği mod işlemiyle gerçekleştirildi. Bir sayı kendini de kalansız 
 
-[source,cpp]
+[source,py]
 ----
 bolen_sayisi=0
 for i in range(101):
