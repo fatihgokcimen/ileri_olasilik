@@ -48,3 +48,26 @@ print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansı
 Yukarıdaki kodların çıktısı da aşağıdaki gibi oldu.
 
  Bu Sayı Dizisinde 275 adet sayı çifti birbirini kalansız böler.
+ 
+ 
+Kodların tamamı aşağıdadır.
+
+pigeon2.py
+[source,py]
+----
+import numpy as np
+import random
+sayilar = list(range(101))
+#sayilar=[2,3,11,5,14]
+for i in range(101):
+    sayilar[i]=random.randint(1, 200)
+print(sayilar)    
+bolen_sayisi=0
+for i in range(101):
+    for j in range(101):
+        if i!=j:
+            if sayilar[i] % sayilar[j]==0:
+                bolen_sayisi+=1
+             
+print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansız böler.") 
+----
