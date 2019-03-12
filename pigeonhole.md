@@ -1,16 +1,16 @@
-= Güvercin Yuvası Problemi
+# Güvercin Yuvası Problemi
 
-== Problem:
+## Problem:
 
 1 ile 200 arasında 101 tane sayı seçilmiş olsun. Bu sayılar arasında muhakkak öyle iki sayı vardır ki biri diğerini tam böler. Bunun ıspatının güvercin yucası prensibi ile yapılması
 
 
-== Çözüm:
+## Çözüm:
 
 Öncelikle problemde istenildiği gibi 1 ile 200 arasında 101 tane rasgele sayı üretilip bir diziye aktarıldı. Bu işlemi yapan kaynak python kodları aşağıdaki gibidir.
 
 [source,py]
-----
+```
 import numpy as np
 import random
 sayilar = list(range(101))
@@ -18,7 +18,7 @@ sayilar = list(range(101))
 for i in range(101):
     sayilar[i]=random.randint(1, 200)
 print(sayilar)
-----
+```
 
 Yukarıdaki kodlar çalıştırıldıktan sonra oluşturulan sayı dizisi aşağıdaki gibi oldu.
 
@@ -29,21 +29,21 @@ Daha sonra bolen_sayisi değişkeni 0 değerine eşitlendi. Dizideki herbir değ
 Bir sayı kendini de kalansız bölüneceği için döngülerdeki i ve j değerleri eşit olmadığı sürece bu işlem gerçekleştirildi. Bu işlemler aşagıdaki gibi yapıldı.
 
 [source,py]
-----
+```
 bolen_sayisi=0
 for i in range(101):
     for j in range(101):
         if i!=j:
             if sayilar[i] % sayilar[j]==0:
                 bolen_sayisi+=1
-----
+```
 
 En sonunda birbirini kalansız bölen sayı çifti adedi sayısı bulunup ekrana yazdırıldı.
 
 [source,py]
-----
+```
 print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansız böler.") 
-----
+```
 
 Yukarıdaki kodların çıktısı da aşağıdaki gibi oldu.
 
@@ -61,7 +61,7 @@ Kodların tamamı aşağıdadır.
 
 pigeon2.py
 [source,py]
-----
+```
 import numpy as np
 import random
 sayilar = list(range(101))
@@ -77,4 +77,4 @@ for i in range(101):
                 bolen_sayisi+=1
              
 print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansız böler.") 
-----
+```
