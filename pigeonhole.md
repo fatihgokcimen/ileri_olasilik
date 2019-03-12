@@ -29,7 +29,7 @@ Daha sonra bolen_sayisi değişkeni 0 değerine eşitlendi. Dizideki herbir değ
 Bir sayı kendini de kalansız bölüneceği için döngülerdeki i ve j değerleri eşit olmadığı sürece bu işlem gerçekleştirildi. Bu işlemler aşagıdaki gibi yapıldı.
 
 [source,py]
-```
+```py
 bolen_sayisi=0
 for i in range(101):
     for j in range(101):
@@ -41,7 +41,7 @@ for i in range(101):
 En sonunda birbirini kalansız bölen sayı çifti adedi sayısı bulunup ekrana yazdırıldı.
 
 [source,py]
-```
+```py
 print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansız böler.") 
 ```
 
@@ -61,7 +61,7 @@ Kodların tamamı aşağıdadır.
 
 pigeon2.py
 [source,py]
-```
+```py
 import numpy as np
 import random
 sayilar = list(range(101))
