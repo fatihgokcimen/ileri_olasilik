@@ -9,7 +9,7 @@
 
 Öncelikle problemde istenildiği gibi 1 ile 200 arasında 101 tane rasgele sayı üretilip bir diziye aktarıldı. Bu işlemi yapan kaynak python kodları aşağıdaki gibidir.
 
-[pigeon2.py]
+
 ```py
 import numpy as np
 import random
@@ -28,7 +28,7 @@ Daha sonra bolen_sayisi değişkeni 0 değerine eşitlendi. Dizideki herbir değ
 
 Bir sayı kendini de kalansız bölüneceği için döngülerdeki i ve j değerleri eşit olmadığı sürece bu işlem gerçekleştirildi. Bu işlemler aşagıdaki gibi yapıldı.
 
-[pigeon2.py]
+
 ```py
 bolen_sayisi=0
 for i in range(101):
@@ -40,7 +40,7 @@ for i in range(101):
 
 En sonunda birbirini kalansız bölen sayı çifti adedi sayısı bulunup ekrana yazdırıldı.
 
-[pigeon2.py]
+
 ```py
 print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansız böler.") 
 ```
@@ -77,3 +77,5 @@ for i in range(101):
              
 print("Bu Sayı Dizisinde" , bolen_sayisi, "adet sayı çifti birbirini kalansız böler.") 
 ```
+
+[Kaynak Dosya](pigeon2.py)
