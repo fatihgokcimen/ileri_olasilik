@@ -10,7 +10,7 @@
 Öncelikle problemde istenildiği gibi 1 ile 200 arasında 101 tane rasgele sayı üretilip bir diziye aktarıldı. Bu işlemi yapan kaynak python kodları aşağıdaki gibidir.
 
 [source,py]
-```
+```py
 import numpy as np
 import random
 sayilar = list(range(101))
