@@ -5,3 +5,5 @@
 [1- Güvercin Yuvası Uygulaması](pigeonhole.ipynb)
 
 [2- Permutasyon Kombinasyon Örnek](Permutasyon_Kombinasyon.ipynb)
+
+[3- Bayes Örneği](bayes.jpynb)
