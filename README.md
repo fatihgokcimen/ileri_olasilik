@@ -6,6 +6,6 @@
 
 [2- Permutasyon Kombinasyon Örnek](Permutasyon_Kombinasyon.ipynb)
 
-[3- Bayes Örneği](bayes.jpynb)
+[3- Bayes Örneği](Bayes.ipynb)
 
 [4- Olasılık Kütle Fonksiyonu](PMF.ipynb)
