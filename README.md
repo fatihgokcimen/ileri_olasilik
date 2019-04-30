@@ -7,3 +7,5 @@
 [2- Permutasyon Kombinasyon Örnek](Permutasyon_Kombinasyon.ipynb)
 
 [3- Bayes Örneği](bayes.jpynb)
+
+[4- Olasılık Kütle Fonksiyonu](PMF.ipynb)
