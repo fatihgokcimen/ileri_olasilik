@@ -9,3 +9,5 @@
 [3- Bayes Örneği](Bayes.ipynb)
 
 [4- Olasılık Kütle Fonksiyonu](PMF.ipynb)
+
+[5- Varyans Bernoulli Binomial](Varyans_Bernoulli_Binomial.ipynb)
